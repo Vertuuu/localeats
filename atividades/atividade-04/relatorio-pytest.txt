@@ -1,0 +1,24 @@
+﻿============================= test session starts =============================
+platform win32 -- Python 3.12.8, pytest-9.2.0, pluggy-1.7.0 -- C:\Users\Everton\Documents\localeats\.venv\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\Everton\Documents\localeats\atividades\atividade-04
+configfile: pytest.ini
+testpaths: tests
+plugins: playwright-0.10.0
+collecting ... collected 13 items
+
+tests/test_localeats.py::test_alternar_para_criar_conta_exibe_formulario_de_cadastro[chromium] PASSED [  7%]
+tests/test_localeats.py::test_entrar_sem_preencher_campos_mantem_usuario_no_login[chromium] PASSED [ 15%]
+tests/test_regras_localeats.py::test_pedido_acima_do_minimo_e_aceito PASSED [ 23%]
+tests/test_regras_localeats.py::test_pedido_no_limite_do_valor_minimo[um-centavo-abaixo] PASSED [ 30%]
+tests/test_regras_localeats.py::test_pedido_no_limite_do_valor_minimo[exatamente-o-minimo] PASSED [ 38%]
+tests/test_regras_localeats.py::test_pedido_no_limite_do_valor_minimo[um-centavo-acima] PASSED [ 46%]
+tests/test_regras_localeats.py::test_pedido_com_valor_negativo_gera_erro PASSED [ 53%]
+tests/test_regras_localeats.py::test_quantidade_dentro_do_intervalo_e_valida PASSED [ 61%]
+tests/test_regras_localeats.py::test_quantidade_nos_limites_do_intervalo[zero] PASSED [ 69%]
+tests/test_regras_localeats.py::test_quantidade_nos_limites_do_intervalo[limite-inferior] PASSED [ 76%]
+tests/test_regras_localeats.py::test_quantidade_nos_limites_do_intervalo[limite-superior] PASSED [ 84%]
+tests/test_regras_localeats.py::test_quantidade_nos_limites_do_intervalo[acima-do-limite] PASSED [ 92%]
+tests/test_regras_localeats.py::test_quantidade_negativa_gera_erro PASSED [100%]
+
+============================= 13 passed in 3.17s ==============================
